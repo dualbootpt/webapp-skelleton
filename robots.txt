@@ -1,0 +1,14 @@
+# www.robotstxt.org/
+# http://code.google.com/web/controlcrawlindex/
+#
+#User-agent: *
+#Disallow: <-- like this allows all pages to be crowled
+#Disallow: /tmp <-- like this disallows /tmp to be crowled
+
+User-agent: *
+Disallow:
+Disallow: /links.php
+Disallow: /main_menu.html
+Disallow: /common_footer.html
+Disallow: /common_header.html
+Disallow: /404.html

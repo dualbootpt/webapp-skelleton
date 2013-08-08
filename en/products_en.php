@@ -1,0 +1,212 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt"> <![endif]-->
+
+<!--[if gt IE 8]> <html class="no-js" lang="pt"> <![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-UK">
+  
+  <?php include "common_header.html" ?>
+
+  <title>BLUEMED - Our Products</title>
+  <meta name="keywords" content="GUTRON, MIDODRINE, BUPINOSTRUM, BUPIVACAINE">
+  <meta name="description" content="BLUEMED - Our Products: GUTRON (midodrine); BUPINOSTRUM ( bupivacaine)">
+</head>
+<body>
+<div role="main">
+  <header>
+  <nav>
+      <?php include "main_menu.html" ?>
+  </nav>
+  </header>
+  <div id="content" class="container-fluid">
+   <section>
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="hero-unit">
+            <div class="row">  
+                <div class="span3">
+                    <div class="tabbable tabs-left">
+                        <ul class="nav nav-tabs" id="vigilmenu">
+                            <li class="active"><a href="#todos" data-toggle="tab">All</a></li>
+                            <li><a href="#Biocidas" data-toggle="tab">Biocidal</a></li>
+                            <li><a href="#Dispositivo-medicos" data-toggle="tab">Medical devices(MD)</a></li>
+                            <li><a href="#diagnostico-in-vitro" data-toggle="tab">IVDMD</a></li>
+                            <li><a href="#DM-implantavel-ativo" data-toggle="tab">AIMD</a></li>
+                            <li><a href="#Genero-alimenticio" data-toggle="tab">Foods</a></li>
+                            <li><a href="#Medicamentos-de-uso-humano" data-toggle="tab">Medicines for human use</a></li>
+                            <li><a href="#Medicamentos-de-uso-veterinario" data-toggle="tab">Medicines for veterinary use</a></li>
+                            <li><a href="#Produto-cosmetico-e-higiene-corporal" data-toggle="tab">Cosmetics</a></li>
+                            <li><a href="#puericultura" data-toggle="tab">Products for childcare</a></li>
+                            <li><a href="#Produto-uso-veterinario" data-toggle="tab">Products for veterinary use</a></li>
+                            <li><a href="#Substancia-ou-mistura-de-substancias" data-toggle="tab">Substance or mixture of substances</a></li>
+                            <li><a href="#outros" data-toggle="tab">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="span8">    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="todos">
+                            <p class="smallfont">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Code</th>
+                                        <th>Designation</th>
+                                        <th>Image</th>
+                                        <th>Leaflet</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9464602</td>
+                                        <td>GUTRON Midodrine 2,5mg 20 comp</td>
+                                        <td><img alt="Gutron 2,5mg (midrodine)" src="/img/gutron_small.png"/></td>
+                                        <td><a alt="FI Gutron 2,5mg" target="_blank" href="/downloads/FI Gutron.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5013420</td>
+                                        <td>GUTRON Midodrine 2,5mg 60 comp</td>
+                                        <td><img alt="Gutron 2,5mg (midrodine)" src="/img/gutron_small.png"/></td>
+                                        <td><a alt="FI Gutron 2,5mg" target="_blank" href="/downloads/FI Gutron.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3790581</td>
+                                        <td>BUPINOSTRUM 0,5% HIPERBARIC Bupivacaine 20MG/4ML 10AMP</td>
+                                        <td>Not available</td>
+                                        <td class="center"><a alt="BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP" target="_blank" href="/downloads/FI BUPINOSTRUM isobarica.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3790482</td>
+                                        <td>BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP</td>
+                                        <td>Not available</td>
+                                        <td class="center"><a alt="BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP" target="_blank" href="/downloads/FI BUPINOSTRUM isobarica.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="Biocidas">
+                            <p class="smallfont">                            
+                        </div>                        
+                        <div class="tab-pane" id="Dispositivo-medicos">
+                            <p class="smallfont">                            
+                        </div>
+                        <div class="tab-pane" id="diagnostico-in-vitro">
+                            <p class="smallfont">
+                        </div>
+                        <div class="tab-pane" id="DM-implantavel-ativo">
+                            <p class="smallfont">                            
+                        </div>                        
+                        <div class="tab-pane" id="Genero-alimenticio">
+                            <p class="smallfont">                            
+                        </div>
+                        <div class="tab-pane" id="Medicamentos-de-uso-humano">
+                            <p class="smallfont">
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Code</th>
+                                        <th>Designation</th>
+                                        <th>Image</th>
+                                        <th>Leaflet</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9464602</td>
+                                        <td>GUTRON Midodrine 2,5mg 20 comp</td>
+                                        <td><img alt="Gutron 2,5mg (midrodine)" src="/img/gutron_small.png"/></td>
+                                        <td><a alt="FI Gutron 2,5mg" target="_blank" href="/downloads/FI Gutron.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5013420</td>
+                                        <td>GUTRON Midodrine 2,5mg 60 comp</td>
+                                        <td><img alt="Gutron 2,5mg (midrodine)" src="/img/gutron_small.png"/></td>
+                                        <td><a alt="FI Gutron 2,5mg" target="_blank" href="/downloads/FI Gutron.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3790581</td>
+                                        <td>BUPINOSTRUM 0,5% HIPERBARIC Bupivacaine 20MG/4ML 10AMP</td>
+                                        <td>Not available</td>
+                                        <td class="center"><a alt="BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP" target="_blank" href="/downloads/FI BUPINOSTRUM isobarica.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3790482</td>
+                                        <td>BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP</td>
+                                        <td>Not available</td>
+                                        <td class="center"><a alt="BUPINOSTRUM 0,5% ISOBARIC Bupivacaine 20MG/4ML 10AMP" target="_blank" href="/downloads/FI BUPINOSTRUM isobarica.pdf"><img ALT="pdf icon" src="/img/pdf_icon_small.png"/></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </p>
+                        </div><div class="tab-pane" id="Medicamentos-de-uso-veterinario">
+                            <p class="smallfont">                            
+                        </div>                        
+                        <div class="tab-pane" id="Produto-cosmetico-e-higiene-corporal">
+                            <p class="smallfont">                            
+                        </div>
+                        <div class="tab-pane" id="puericultura">
+                            <p class="smallfont">
+                        </div>
+                        <div class="tab-pane" id="Produto-uso-veterinario">
+                            <p class="smallfont">                            
+                        </div>
+                        <div class="tab-pane" id="Substancia-ou-mistura-de-substancias">
+                            <p class="smallfont">
+                        </div>
+                        <div class="tab-pane" id="outros">
+                            <p class="smallfont">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </section>
+
+   <?php include "common_footer_en.html" ?>
+      
+  </div>      
+</div>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script type="text/javascript" src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script type="text/javascript" src="/js/plugins.js"></script>
+  <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript" src="/js/bootstrap-tab.js"></script>  
+  
+  <script type="text/javascript">
+      $('#prod').addClass('active');
+  </script>  
+  <!-- end scripts -->
+  
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]>
+    <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+  <![endif]-->
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9038842-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
