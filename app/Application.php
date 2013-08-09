@@ -4,7 +4,7 @@
  * Based on Zend_Application
  * 
  */
-require_once 'app/Autoloader.php';
+require_once 'Autoloader.php';
 
 
 class Application
@@ -19,6 +19,7 @@ class Application
      * @var Model_AccessControl 
      */
     private $_accessControll;
+
     /**
      * Flattened (lowercase) option keys
      *
@@ -65,9 +66,9 @@ class Application
      */
     public function __construct($options = null) {
         
-        new Autoloader(array('Model', 'Controller', 'Email', 'Bcrypt'));
+        new Autoloader(array('Model', 'Controller', 'Lib', 'Lib/Mage', 'Lib/Zend'));
         
-        if (null == $options) {
+        if ($options == null) {
             $options = array();
         }
         
@@ -77,24 +78,34 @@ class Application
         
         $this->setConfig($options, self::REPLACE);
         $this->setConfig(include 'app/config/local.config.php', Application::MERGE);
-               
-        $dbAdapter = new Zend_Db_Adapter_Pdo_Mysql($this->getConfigOption('db'));
+        
+        if( $this->getConfigOption('db') ) {   
+            $dbAdapter = new Zend_Db_Adapter_Pdo_Mysql($this->getConfigOption('db'));
+        }
+
         $this->_accessControll = new Model_AccessControl($dbAdapter);
 
-        $this->_translator = new Zend_Translate(
+        i = 1;
+        foreach ($this->_parameters['locale'] as $locale => $param) {
+            if(i == 1){
+                $this->_translator = new Zend_Translate(
                 array(
-                    'adapter' => 'gettext',
-                    'content' => 'locale/en/messages.mo',
-                    'locale' => 'en'
+                    'adapter' => $param['adapter'],
+                    'content' => $param['content'],
+                    'locale' => $locale
                 )
                 );
-        $this->_translator->addTranslation(
+                i++;
+            }
+            else {
+                $this->_translator->addTranslation(
                 array(
-                    'adapter' => 'gettext',
-                    'content' => 'locale/pt/default.mo',
-                    'locale' => 'pt'
-                )
+                    'adapter' => $param['adapter'],
+                    'content' => $param['content'],
+                    'locale' => $locale
                 );
+            }
+        }  
         
         /*
          * Define the default language

@@ -18,7 +18,7 @@ $app->setConfig($_GET, Application::MERGE);
 *   example: /report/list/:id/:hash  --> path /report/list and pass parameters :id and :hash
 **/
 if( isset($_GET['opt']) && $app->matchRoute($_GET['opt'], '/report/list/:id/:hash') ) {
-    $ctrl = new Controller_RegistoReacoesAdversas($app);
+    $ctrl = new  ReplaceWithControllerHere($app);
     $ctrl->listId();
     return true;
     } 
