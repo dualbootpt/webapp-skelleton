@@ -1,0 +1,2 @@
+Place here the php class files corresponding to the Table DB Access classes.
+The application will try to autoload them if they follow the correct naming rules.
